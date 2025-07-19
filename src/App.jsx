@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import home from "./assets/home.svg";
 import about from "./assets/mySvg.svg";
 import p1 from "/digits_image_1752285480548.png";
