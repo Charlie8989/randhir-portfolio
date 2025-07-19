@@ -1,0 +1,44 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Lemon";
+  src: url("./LEMONMILK-Medium.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/Poppins-Medium.ttf")
+    format("truetype");
+}
+
+body {
+  padding-left: 2px;
+  padding-right: 2px;
+  background-color: #010606;
+  color: whitesmoke;
+  overflow-x: hidden;
+}
+.lemon{
+  font-family: Lemon;
+}
+.poppins{
+  font-family: Poppins;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  background: linear-gradient(-45deg, #bababa, #5c954d, #48e195, #09711a);
+  background-size: 400% 400%;
+  animation: gradientMove 10s ease infinite;
+}
