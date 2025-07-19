@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @font-face {
   font-family: "Lemon";
-  src: url("./LEMONMILK-Medium.otf")
+  src: url("/fonts/LEMONMILK-Medium.otf")
     format("opentype");
 }
 
